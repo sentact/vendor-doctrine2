@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>DoctrineCommon</name>
+ <channel>pear.phpdoctrine.org</channel>
+ <summary>Common Doctrine code</summary>
+ <description>The Doctrine Common package contains shared code between the other packages.</description>
+ <lead>
+  <name>Jonathan H. Wage</name>
+  <user>jwage</user>
+  <email>jonwage@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Guilherme Blanco</name>
+  <user>guilhermeblanco</user>
+  <email>guilhermeblanco@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Roman Borschel</name>
+  <user>romanb</user>
+  <email>roman@code-factory.org</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-04-27</date>
+ <time>18:13:01</time>
+ <version>
+  <release>2.0.0</release>
+  <api>2.0.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="0492c4133fa1c4c41841e0121e680f94" name="Doctrine/Common/ClassLoader.php" role="php" />
+   <file baseinstalldir="/" md5sum="fc395df065b483f0b6abdffd5daeb4f4" name="Doctrine/Common/CommonException.php" role="php" />
+   <file baseinstalldir="/" md5sum="dfbadf67a1bac3041339cd9a3f2c623b" name="Doctrine/Common/Comparable.php" role="php" />
+   <file baseinstalldir="/" md5sum="3bda34179ba3e4aa3cb5c7f13e0c303f" name="Doctrine/Common/Equatable.php" role="php" />
+   <file baseinstalldir="/" md5sum="30f3a639f896fd43a73c295edb604123" name="Doctrine/Common/EventArgs.php" role="php" />
+   <file baseinstalldir="/" md5sum="4a586b9c463f51931e25c624c193b701" name="Doctrine/Common/EventManager.php" role="php" />
+   <file baseinstalldir="/" md5sum="1987edea28becdc5c66bc985c04de1d6" name="Doctrine/Common/EventSubscriber.php" role="php" />
+   <file baseinstalldir="/" md5sum="e5e6dcbc3cd2e49c1287efe5dd1b146d" name="Doctrine/Common/Lexer.php" role="php" />
+   <file baseinstalldir="/" md5sum="31e9d30e8c264e3a11ee5c06a6927d0a" name="Doctrine/Common/NotifyPropertyChanged.php" role="php" />
+   <file baseinstalldir="/" md5sum="25ca218e62376e47ea1848184b1ad25a" name="Doctrine/Common/PropertyChangedListener.php" role="php" />
+   <file baseinstalldir="/" md5sum="6df30fce4f073730b0713b2cba8e8e68" name="Doctrine/Common/Version.php" role="php" />
+   <file baseinstalldir="/" md5sum="c2d9e3f0eaaf2eaade94eeb4e91299fd" name="Doctrine/Common/Annotations/Annotation.php" role="php" />
+   <file baseinstalldir="/" md5sum="5cc9e20cb934fb6c91d1532831f27088" name="Doctrine/Common/Annotations/AnnotationException.php" role="php" />
+   <file baseinstalldir="/" md5sum="21bb3d348e466ce2fb407ac7c79bdac4" name="Doctrine/Common/Annotations/AnnotationReader.php" role="php" />
+   <file baseinstalldir="/" md5sum="4ff9380fcd6cb3615323e3310d79527d" name="Doctrine/Common/Annotations/Lexer.php" role="php" />
+   <file baseinstalldir="/" md5sum="7aaf6080fe9db70badd29435bd0577f1" name="Doctrine/Common/Annotations/Parser.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Doctrine/Common/Annotations/README.markdown" role="data" />
+   <file baseinstalldir="/" md5sum="1b170e26628c53faa45f143d50e013b3" name="Doctrine/Common/Cache/AbstractCache.php" role="php" />
+   <file baseinstalldir="/" md5sum="15ae1a1eba2347e1dcdd90450ec41a6f" name="Doctrine/Common/Cache/ApcCache.php" role="php" />
+   <file baseinstalldir="/" md5sum="7402d1785f93724f885fe802b6dbf78b" name="Doctrine/Common/Cache/ArrayCache.php" role="php" />
+   <file baseinstalldir="/" md5sum="21b7c55bf0c6c53b525dcb709f5d03ab" name="Doctrine/Common/Cache/Cache.php" role="php" />
+   <file baseinstalldir="/" md5sum="2e08d105144df66f57227b8849eed0dc" name="Doctrine/Common/Cache/MemcacheCache.php" role="php" />
+   <file baseinstalldir="/" md5sum="46d14dfcbec3003de9dd2b9bfcd5c38b" name="Doctrine/Common/Cache/XcacheCache.php" role="php" />
+   <file baseinstalldir="/" md5sum="27f6d3229f180aeb9cdf7cab236c5a53" name="Doctrine/Common/Collections/ArrayCollection.php" role="php" />
+   <file baseinstalldir="/" md5sum="5477e00667c9b69297f1723d511ebc92" name="Doctrine/Common/Collections/Collection.php" role="php" />
+   <file baseinstalldir="/" md5sum="1847d91e578748e63660229bda9a25d6" name="Doctrine/Common/Util/Debug.php" role="php" />
+   <file baseinstalldir="/" md5sum="2f5bc373588ebf2cfc0d13291d8698af" name="Doctrine/Common/Util/Inflector.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.6.0</min>
+    <recommended>1.6.1</recommended>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>2.0.0</release>
+    <api>2.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-04-27</date>
+   <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+   <notes>
+-
+   </notes>
+  </release>
+ </changelog>
+</package>
